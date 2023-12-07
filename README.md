@@ -31,7 +31,7 @@ cat /etc/ipsec.d/cacert/ca-cert.pem
 ### THAT'S IT
 
 - If you want to add more than one user just enter into the container and manually add some users and passwords
-as previous line as example. Do not forget restart container after ipsec.secrets file changing.
+as previous line in the file ipsec.secrets. Do not forget restart container after ipsec.secrets file changing.
 
 ````
 sudo docker exec -it container_name bash
